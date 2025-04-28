@@ -1,9 +1,80 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0" version="26.2.14">
   <diagram name="Page-1" id="6EsapCdWRhEGxBoqTNBM">
-    <mxGraphModel>
+    <mxGraphModel dx="872" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="jsBJ411V8B6LMfu-yQu7-2" value="deposit" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="60" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jsBJ411V8B6LMfu-yQu7-3" value="widthrow" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="530" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jsBJ411V8B6LMfu-yQu7-5" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="360" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="jsBJ411V8B6LMfu-yQu7-6" value="get_balance" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="370" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jsBJ411V8B6LMfu-yQu7-7" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="jsBJ411V8B6LMfu-yQu7-5" target="jsBJ411V8B6LMfu-yQu7-6">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="390" as="sourcePoint" />
+            <mxPoint x="290" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jsBJ411V8B6LMfu-yQu7-8" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.629;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jsBJ411V8B6LMfu-yQu7-5" target="jsBJ411V8B6LMfu-yQu7-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="119.7" y="230.31" as="sourcePoint" />
+            <mxPoint x="359.7" y="241.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jsBJ411V8B6LMfu-yQu7-9" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jsBJ411V8B6LMfu-yQu7-5" target="jsBJ411V8B6LMfu-yQu7-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="550" as="sourcePoint" />
+            <mxPoint x="360" y="562" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jsBJ411V8B6LMfu-yQu7-10" value="&lt;pre dir=&quot;ltr&quot; data-ved=&quot;2ahUKEwj9kpmx3PmMAxX_Q6QEHVxkKC0Q3ewLegQIDRAT&quot; aria-label=&quot;نوشتار ترجمه‌شده: transmission&quot; style=&quot;text-align: left;&quot; id=&quot;tw-target-text&quot; data-placeholder=&quot;ترجمه&quot; class=&quot;tw-data-text tw-text-large tw-ta&quot;&gt;&lt;span lang=&quot;en&quot; class=&quot;Y2IQFc&quot;&gt;transmission&lt;/span&gt;&lt;/pre&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="210" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jsBJ411V8B6LMfu-yQu7-11" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="jsBJ411V8B6LMfu-yQu7-5" target="jsBJ411V8B6LMfu-yQu7-10">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="240" as="sourcePoint" />
+            <mxPoint x="360" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jsBJ411V8B6LMfu-yQu7-13" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.45;exitY=0.986;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.443;entryY=-0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="jsBJ411V8B6LMfu-yQu7-10" target="jsBJ411V8B6LMfu-yQu7-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="350" y="370" as="sourcePoint" />
+            <mxPoint x="360" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jsBJ411V8B6LMfu-yQu7-14" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="jsBJ411V8B6LMfu-yQu7-13">
+          <mxGeometry x="0.7333" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jsBJ411V8B6LMfu-yQu7-17" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="jsBJ411V8B6LMfu-yQu7-3" target="jsBJ411V8B6LMfu-yQu7-6">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="270" y="440" as="sourcePoint" />
+            <mxPoint x="430" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jsBJ411V8B6LMfu-yQu7-18" value="&lt;div&gt;confirm_password&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="360" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jsBJ411V8B6LMfu-yQu7-19" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="jsBJ411V8B6LMfu-yQu7-10" target="jsBJ411V8B6LMfu-yQu7-18">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="350" y="370" as="sourcePoint" />
+            <mxPoint x="510" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jsBJ411V8B6LMfu-yQu7-20" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;labelBackgroundColor=none;endArrow=open;endFill=0;dashed=1;rounded=0;exitX=1.014;exitY=0.414;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="jsBJ411V8B6LMfu-yQu7-3">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="530" y="530" as="sourcePoint" />
+            <mxPoint x="560" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
